@@ -23,7 +23,15 @@
 [D14：實作 Day：Yahoo! 電影網頁爬蟲實作練習](Homework/Day14_實作Yahoo!電影網頁爬蟲實作練習/)  
 [D15：實作 Day：金融資訊網頁爬蟲實作練習](Homework/Day15_實作金融資訊網頁爬蟲實作練習)  
 [D16：實作 Day：Wiki的爬蟲實作練習](Homework/Day16_實作Wiki的爬蟲實作練習)  
+
+### 3. 動態網頁爬蟲技術
 [D17：HTTP 動態網頁架構說明與非同步取得資料](Homework/Day17_HTTP動態網頁架構說明與非同步取得資料)  
 [D18：瀏覽器開發者工具介紹](Homework/Day18_瀏覽器開發者工具介紹)  
 [D19：動態網頁爬蟲 - 使用Selenium + BeautifulSoup 模擬瀏覽器執行](Homework/Day19_動態網頁爬蟲_使用Selenium_BeautifulSoup模擬瀏覽器執行)  
 [D20：動態網頁爬蟲 - 利用開發者工具，觀察模擬 API 存取](Homework/Day20_動態網頁爬蟲_利用開發者工具觀察模擬API存取)  
+[D21：實作 Day：ETTODAY 動態爬蟲實作練習](Homework/Day21_實作ETTODAY動態爬蟲實作練習)  
+[D22：實作 Day：Hahow爬蟲實作練習](Homework/Day22_實作Hahow爬蟲實作練習)  
+[D23：實作 Day：東森新聞雲網站爬蟲實作練習](Homework/Day23_實作東森新聞雲網站爬蟲實作練習)  
+[D24：實作 Day：104人力銀行網站爬蟲實作練習](Homework/Day24_實作104人力銀行網站爬蟲實作練習)  
+
+### 4. Scrapy 網站爬蟲框架
