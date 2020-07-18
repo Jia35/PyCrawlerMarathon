@@ -35,3 +35,11 @@
 [D24：實作 Day：104人力銀行網站爬蟲實作練習](Homework/Day24_實作104人力銀行網站爬蟲實作練習)  
 
 ### 4. Scrapy 網站爬蟲框架
+[D25：多網頁爬蟲實作策略介紹](Homework/Day25_多網頁爬蟲實作策略介紹)  
+[D26：Scrapy 爬蟲流程 (1) - 建立流程 + 送出請求](Homework/Day26_Scrapy爬蟲流程-建立流程+送出請求)  
+[D27：Scrapy 爬蟲流程 (2) - XPath + Item Pipeline](Homework/Day27_Scrapy爬蟲流程-XPath+ItemPipeline)  
+[D28：Scrapy 爬蟲流程 (3) - API](Homework/Day28_Scrapy爬蟲流程-API)  
+[D29：Scrapy 爬蟲流程 (4) - 多網頁爬蟲](Homework/Day29_Scrapy爬蟲流程-多網頁爬蟲)  
+
+### 5. 進階爬蟲技術
+[D30：爬蟲可能會遇到的問題](Homework/Day30_爬蟲可能會遇到的問題)  
