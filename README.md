@@ -1,7 +1,7 @@
 # PyCrawlerMarathon
 ## [Python網路爬蟲實戰研習馬拉松](https://www.cupoy.com/product-marathon/pycrawler)
 
-![](https://productfile.cupoy.com/pycrawler/1591057739988/large)
+![Python網路爬蟲實戰研習馬拉松](https://productfile.cupoy.com/pycrawler/1591057739988/large)
 
 ## 課程
 ### 1. 爬蟲基礎知識
@@ -43,3 +43,7 @@
 
 ### 5. 進階爬蟲技術
 [D30：爬蟲可能會遇到的問題](Homework/Day30_爬蟲可能會遇到的問題)  
+[D31：反爬：瀏覽器標頭與基本資訊](Homework/Day31_反爬瀏覽器標頭與基本資訊)  
+[D32：反爬：驗證碼處理](Homework/Day32_反爬驗證碼處理)  
+[D33：反爬：登入授權模擬](Homework/Day33_反爬登入授權模擬)  
+
