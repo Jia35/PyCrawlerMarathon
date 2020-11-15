@@ -1,0 +1,108 @@
+2020-11-15 11:39:00 [scrapy.utils.log] INFO: Scrapy 2.2.1 started (bot: scrapy_ettoday)
+2020-11-15 11:39:00 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.0, Platform Windows-10-10.0.19041-SP0
+2020-11-15 11:39:00 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-11-15 11:39:00 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scrapy_ettoday',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': './output/ettoday.log',
+ 'NEWSPIDER_MODULE': 'scrapy_ettoday.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_ettoday.spiders']}
+2020-11-15 11:39:00 [scrapy.extensions.telnet] INFO: Telnet Password: 4d661e375ee9dd4d
+2020-11-15 11:39:00 [py.warnings] WARNING: c:\users\jia\.virtualenvs\test_crawler-ebuwrmzq\lib\site-packages\scrapy\extensions\feedexport.py:210: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2020-11-15 11:39:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-15 11:39:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-15 11:39:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-15 11:39:00 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-11-15 11:39:00 [scrapy.core.engine] INFO: Spider opened
+2020-11-15 11:39:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-15 11:39:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-15 11:39:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/robots.txt> (referer: None)
+2020-11-15 11:39:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201112/1852684.htm> (referer: None)
+2020-11-15 11:39:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201109/1850538.htm> (referer: None)
+2020-11-15 11:39:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ettoday.net/news/20201112/1852663.htm> (referer: None)
+2020-11-15 11:39:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201112/1852684.htm>
+{'content': ['記者吳佳穎／綜合報導',
+             '2015年推出的Google相簿曾標榜提供「無限備份空間」，對於大多數入門用戶而言，算好用功能。不過，Google已宣布，將於明(2021)年6月1日開始，停止免費提供這項服務，想要在Google帳戶每個月所附帶的15GB外，有更大的上傳空間，要乖乖付費了；Google指出，在明年6月1日前已上傳的內容，不受影響，另外，Pixel第一代到目前最新第5代手機的使用者有特權，仍可享免費無限上傳功能。',
+             'Google指出，明年6月1日起，新上傳的照片和影片將計入每個Google帳戶所附帶的15GB免費存儲空間；但2021年6月1日之前備份的照片和影片仍可免費存在上面、不受存儲限制，不過，上傳內容若是16兆像素以上的圖像和1080p以上的影片，仍可能會被Google壓縮備份。',
+             '目前Google相簿的用戶已超過10億，上傳的照片/影片達4兆，每週還新增280億。',
+             '國外網站指出，Google表示，80％以上的人仍然可以使用15GB的免費存儲空間，來存儲大約三年的照片、影片份量。但Google會建立兩個工具來管理免費存儲，一個是「客製化估算」，會考慮用戶備份頻率，最大限度增加存儲空間，以及建議刪除某些過大照片、影片。',
+             '某些設定以圖片原始大小上傳的內容，不會被新功能影響。另外，Pixel手機第1代到第5代的使用者可以豁免這項「新政策」，繼續享受免費無限制的上傳空間。',
+             'Google這項作法，旨在將用戶導向自家的「One訂閱服務」，若用戶想要15ＧB免費額度以外的存儲空間和其他服務，例如VPN等，100GB每月要付1.99美元（約新台幣57元），200GB儲存則月付2.99美元（約新台幣85元），2TB及以上月付9.99美元（約新台幣285元）；這三個等級也可選擇年付，分別為$19.99美元（約新台幣570元）、29.99美元（約新台幣855元）和99.99美元（約新台幣2850元）。'],
+ 'title': 'Google相簿明年「無限上傳」將收費\u3000Pixel享免繳特權'}
+2020-11-15 11:39:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201109/1850538.htm>
+{'content': ['記者姚惠茹／台北報導',
+             'LINE今（9）日全台20分鐘大當機，官方回應，台灣時間13:32開始，在調整網路系統期間，致使無法正常傳訊與透過LINE登入連動的服務，並已在13:52全面修復，造成不便深感抱歉。',
+             'LINE今日下午當機20分鐘，不論手機或桌機版，文字訊息都無法傳出，若要傳LINE訊息給好友，傳出的內容會消失不見，接著就會出現「訊息無法傳出」的通知，不過照片及影片都能正常傳送。',
+             'LINE稍早在官網表示，今日台灣時間13:32開始，在調整網路系統期間，致使無法正常傳訊與透過LINE登入連動的服務，並已在13:52全面修復，造成不便深感抱歉。'],
+ 'title': '快訊／LINE下午全台大當機！官方道歉曝原因'}
+2020-11-15 11:39:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.ettoday.net/news/20201112/1852663.htm>
+{'content': ['記者林妤柔／綜合報導',
+             '蘋果昨（11）日發表3款新Mac，以及首款為Mac而設的Apple Silicon 處理器「M1」，正式揮別Intel '
+             'X86平台。蘋果在發表會上表示，過渡到自家晶片的時間大概要花上兩年，而根據今年的傳聞，有4台電腦有機會用到M系列晶片，並在明年推出。',
+             '\r\n'
+             '天風國際分析師郭明錤預測，Apple Silicon和全新設計的新款14吋和16吋MacBook '
+             'Pro將在2021年第二季末或第三季推出，且很可能配備Mini-LED顯示螢幕。',
+             '\r\n'
+             '彭博社指出，新款Apple Silicon的16吋MacBook '
+             'Pro正在開發中，但並未說明發布時間，不過可能跟郭明錤預測的時間一樣。',
+             '\r\n郭明錤在 6月時指出，蘋果最早將在2020年第四季末或2021年第一季初推出具有全新設計的24吋iMac。',
+             '\r\n'
+             '彭博社揭露，蘋果正在開發新款Mac Pro，設計跟目前機款類似，但尺寸只有原來的一半，但不清楚是否取代目前的Mac '
+             'Pro或作為其他型號推出。',
+             'M1晶片配備8核的GPC和8核的CPU，其中包括4個高效能核心和4個高效率核心，且擁有160億個電晶體，每秒可處理11兆次運算，在低功耗晶片領域中，這些核心是全球最快速的CPU核心。蘋果M1晶片可將系統性能提高3.5倍，將圖形性能提高6倍，機器學習速度提高15倍，同時電池續航時間比上一代Mac延長2倍。',
+             '蘋果全系列的Mac在台灣的售價也出爐，13.3 吋的 Mac Air 256GB 定價 30,900 元，512GB 定價 '
+             '38,900 元；13 吋的 MacBook Pro 256GB 定價 39,900 元，512GB 定價 45,900 '
+             '元；16 吋的 MacBook Pro 512GB 定價 77,900 元，1 TB 定價 89,900 '
+             '元。美國已開放預購，台灣時間則未定。'],
+ 'title': '蘋果最強晶片M1問世！ 傳明年「4款Mac」可望用上'}
+2020-11-15 11:39:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-11-15 11:39:00 [scrapy.extensions.feedexport] INFO: Stored json feed (3 items) in: ./output/ettoday.json
+2020-11-15 11:39:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 945,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 127597,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 0.559851,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 11, 15, 3, 39, 0, 967156),
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2020, 11, 15, 3, 39, 0, 407305)}
+2020-11-15 11:39:00 [scrapy.core.engine] INFO: Spider closed (finished)
